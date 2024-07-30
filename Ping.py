@@ -33,8 +33,7 @@ async def make_carbon(code):
 
 @app.on_message(filters.command("ping", prefixes=["/", "!", "%", ",", "", ".", "@", "#"]) & ~BANNED_USERS)
 @language
-async def ping_com(client, message: Message, _):
-    PING_IMG_URL = "https://telegra.ph/file/b62fa5bb8acd4c6176deb.jpg"
+async def ping_com(chttps://telegra.ph/file/e5f7cc882c1658729841f.jpg"
     captionss = "**🥀ᴘɪɴɢɪɴɢ ᴏᴜʀ sᴇʀᴠᴇʀ ᴡᴀɪᴛ.**"
     response = await message.reply_photo(PING_IMG_URL, caption=(captionss))
     await asyncio.sleep(1)
@@ -70,10 +69,10 @@ async def ping_com(client, message: Message, _):
         ],
         [
             InlineKeyboardButton(
-                text="✦ ɢʀᴏᴜᴘ ✦", url=f"https://t.me/hgfhfdhhg",
+                text="✦ ɢʀᴏᴜᴘ ✦", url=f"https://t.me/AboutshayarAkhawab",
             ),
             InlineKeyboardButton(
-                text="✧ ᴍᴏʀᴇ ✧", url=f"https://t.me/hgfhfdhhg",
+                text="✧ ᴍᴏʀᴇ ✧", url=f"https://t.me/AboutshayarAkhawab",
             )
         ],
         [
